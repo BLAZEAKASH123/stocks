@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="D:\New folder (2)\.vscode\favicon.ico">
+
+    <title>AKASH STOCKS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">MENU</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="sample1.html">MY PROFILE</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  STOCKS <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="orders.html">
+                  <span data-feather="file"></span>
+                  Orders
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.kiplinger.com/slideshow/investing/t052-s001-the-50-best-stocks-of-all-time/index.html">
+                  <span data-feather="shopping-cart"></span>
+                  Top Stocks
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.moneycontrol.com/stocksmarketsindia/">
+                  <span data-feather="users"></span>
+                  Current Chart
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://economictimes.indiatimes.com/markets/stocks">
+                  <span data-feather="bar-chart-2"></span>
+                  Latest News
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://walletinvestor.com/lse-stock-forecast/futr-stock-prediction#:~:text=If%20you%20are%20looking%20for,be%20a%20profitable%20investment%20option.&text=Based%20on%20our%20forecasts%2C%20a,to%20be%20around%20%2B129.68%25.">
+                  <span data-feather="layers"></span>
+                  Predictions
+                </a>
+              </li>
+            </ul>
+
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Report
+                  <p>upload ur report here</p>
+                  <input type="file">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.statista.com/chart/18245/india-quarterly-gdp-growth/#:~:text=Despite%20GDP%20growing%20by%2020.1,another%20dip%20for%20national%20accounts.">
+                  <span data-feather="file-text"></span>
+                  Last quarter
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  DEPOSIT
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  WITHDRAW
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h2">THIS IS AKASH'S STOCK DATABASE</h1>
+            
+              <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                <input type="date" name="date">
+                This week
+              </button>
+            </div>
+          </div>
+
+          <canvas class="my-4" id="myChart" width="900" height="380"></canvas>
+
+          <h2>Section title</h2>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>CUSTOMER NAME</th>
+                  <th>STOCK.NO</th>
+                  <th>STOCKNAME</th>
+                  <th>VALUE</th>
+                  <th>NO OF SHARES</th>
+                  <th>WEEK PROFITS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>AKASH</td>
+                  <td>1001</td>
+                  <td>MRF</td>
+                  <td>$120.00</td>
+                  <td>6</td>
+                  <td>1%</td>
+                </tr>
+                <tr>
+                  <td>BALAJI</td>
+                  <td>1002</td>
+                  <td>SBI</td>
+                  <td>$500.00</td>
+                  <td>12</td>
+                  <td>4%</td>
+                </tr>
+                <tr>
+                  <td>ARUN</td>
+                  <td>1003</td>
+                  <td>COCO COLA</td>
+                  <td>$50.00</td>
+                  <td>20</td>
+                  <td>6%</td>
+                </tr>
+                <tr>
+                  <td>ABISHEK</td>
+                  <td>1004</td>
+                  <td>FACEBOOK</td>
+                  <td>$200.00</td>
+                  <td>7</td>
+                  <td>0%</td>
+                </tr>
+                <tr>
+                  <td>RAM</td>
+                  <td>1005</td>
+                  <td>ELITE BARBEQUE</td>
+                  <td>$2000.00</td>
+                  <td>500</td>
+                  <td>200%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
